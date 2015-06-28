@@ -13,7 +13,7 @@ group :production do
 end
 
 # Use bootstrap library for style
-gem 'bootstrap-sass', '3.3.5'
+gem 'bootstrap-sass', '3.3.1'
 
 
 # Use SCSS for stylesheets
