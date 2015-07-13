@@ -1,6 +1,8 @@
 class ContactMailer < ActionMailer::Base
+    default to: "c.p.brucher@gmail.com"
+    
     def contact_email(name, email, body)
-        default to: "c.p.brucher@gmail.com"
+        
        
         @name = name #receives name variable from the controller file, and converts it to an instance variable. Sends to the views file.
         @email = email
